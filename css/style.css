@@ -1,0 +1,107 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color: #1C1C1C;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero{
+  height: 550px;
+  width: 550px;
+  background-color: #1F2937;
+
+}
+
+h1 {
+  color: white;
+  padding-top: 100px;
+
+}
+
+h2{
+  color: #4ADF86;
+}
+
+h1, h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 0px;
+  font-family: 'Karla', sans-serif;
+}
+
+p{
+  color: rgb(213, 212, 216);
+  font-size: 20px;
+}
+
+
+.top {
+  height:370px;
+  border-bottom: 2px solid #273549;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.bottom {
+  height:180px;
+  margin-top: 30px;
+}
+
+.toprow{
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+
+.bottomrow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+
+/******************************************
+/* BUTTONS
+/*******************************************/
+
+.topbutton { 
+  background-color: #4ADF86;
+  color: white;
+  border: none;
+  width: 223px;
+  height: 42px;
+  border-radius: 6px;
+  margin-top: 36px;
+  font-size: 16px;
+}
+
+.password{
+  background-color: #273549;
+  border: none;
+  color: #4ADF86;
+  width: 211px;
+  height: 39px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 16px;
+}
